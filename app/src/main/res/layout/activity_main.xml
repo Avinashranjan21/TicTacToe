@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <CheckBox
+        android:id="@+id/iv_cell_r1_c1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@drawable/ic_cross_black" />
+
+    <CheckBox
+        android:id="@+id/iv_cell_r1_c2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_cell_r1_c1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@drawable/ic_cross_black" />
+
+    <CheckBox
+        android:id="@+id/iv_cell_r1_c3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_cell_r1_c2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@drawable/ic_cross_black" />
+
+    <CheckBox
+        android:id="@+id/iv_cell_r2_c1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cell_r1_c1" />
+
+    <CheckBox
+        android:id="@+id/iv_cell_r2_c2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_cell_r2_c1"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cell_r1_c2" />
+
+    <CheckBox
+        android:id="@+id/iv_cell_r2_c3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_cell_r2_c2"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cell_r1_c3" />
+
+    <CheckBox
+        android:id="@+id/iv_cell_r3_c1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cell_r2_c1" />
+
+    <CheckBox
+        android:id="@+id/iv_cell_r3_c2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintStart_toEndOf="@+id/iv_cell_r3_c1"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cell_r2_c2" />
+
+    <CheckBox
+        android:id="@+id/iv_cell_r3_c3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_cell_r3_c2"
+        app:layout_constraintTop_toBottomOf="@+id/iv_cell_r2_c3" />
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="@string/reset"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
